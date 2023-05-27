@@ -69,8 +69,8 @@
       @include listing-card-data-overlay(left);
       background-color: rgba(var(--secondary-rgb), 0.85);
 
-      &:before {
-        content: "$";
+      &:after {
+        content: "Ft";
       }
     }
 

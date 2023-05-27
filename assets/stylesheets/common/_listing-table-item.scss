@@ -21,8 +21,8 @@
 
     &.listing-price {
       // TODO remove and make dynamic currency
-      &:before {
-        content: "$";
+      &:after {
+        content: "Ft";
       }
     }
 

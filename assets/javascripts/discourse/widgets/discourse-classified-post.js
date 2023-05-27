@@ -18,7 +18,7 @@ export default createWidget("discourse-classified-post", {
     // TODO fix price currency?
     return h("div.listing-post-title-bar", [
       h("h3.listing-post-title", title),
-      h("h4.listing-post-price", `($${price})`),
+      h("h4.listing-post-price", `(${price}Ft)`),
       h("span.listing-post-location", [iconNode("map-marker-alt"), location]),
       h("span.listing-post-condition", condition),
     ]);

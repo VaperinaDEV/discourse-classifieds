@@ -1,4 +1,4 @@
-import GlimmerComponent from "discourse/components/glimmer";
+import GlimmerComponent from "@glimmer/component";
 import { action } from "@ember/object";
 import { LISTING_STATUSES } from "../lib/constants";
 import DiscourseURL from "discourse/lib/url";
